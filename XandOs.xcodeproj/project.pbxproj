@@ -18,6 +18,7 @@
 		ABEA4DAB2C4C8A58009D7FB7 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DAA2C4C8A58009D7FB7 /* GameService.swift */; };
 		ABEA4DAD2C4C8E00009D7FB7 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DAC2C4C8E00009D7FB7 /* GameSquare.swift */; };
 		ABEA4DAF2C4C8EBB009D7FB7 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DAE2C4C8EBB009D7FB7 /* SquareView.swift */; };
+		ABEA4DB12C4CA104009D7FB7 /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DB02C4CA104009D7FB7 /* YourNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		ABEA4DAA2C4C8A58009D7FB7 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		ABEA4DAC2C4C8E00009D7FB7 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		ABEA4DAE2C4C8EBB009D7FB7 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		ABEA4DB02C4CA104009D7FB7 /* YourNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				ABEA4D8F2C4BB161009D7FB7 /* AppEntry.swift */,
 				ABEA4D912C4BB161009D7FB7 /* StartView.swift */,
+				ABEA4DB02C4CA104009D7FB7 /* YourNameView.swift */,
 				ABEA4DA52C4BC5B6009D7FB7 /* Game Screen */,
 				ABEA4DA22C4BC4DD009D7FB7 /* Utilities */,
 				ABEA4D9F2C4BB53D009D7FB7 /* Models */,
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEA4DB12C4CA104009D7FB7 /* YourNameView.swift in Sources */,
 				ABEA4D922C4BB161009D7FB7 /* StartView.swift in Sources */,
 				ABEA4DAF2C4C8EBB009D7FB7 /* SquareView.swift in Sources */,
 				ABEA4D902C4BB161009D7FB7 /* AppEntry.swift in Sources */,
