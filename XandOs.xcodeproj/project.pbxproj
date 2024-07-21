@@ -21,6 +21,7 @@
 		ABEA4DB12C4CA104009D7FB7 /* YourNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DB02C4CA104009D7FB7 /* YourNameView.swift */; };
 		ABEA4DB52C4CA89B009D7FB7 /* MPConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DB42C4CA89B009D7FB7 /* MPConnectionManager.swift */; };
 		ABEA4DB72C4CC4E9009D7FB7 /* MPGameMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DB62C4CC4E9009D7FB7 /* MPGameMove.swift */; };
+		ABEA4DB92C4CCB0D009D7FB7 /* MPPeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA4DB82C4CCB0D009D7FB7 /* MPPeersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		ABEA4DB22C4CA7DD009D7FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ABEA4DB42C4CA89B009D7FB7 /* MPConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPConnectionManager.swift; sourceTree = "<group>"; };
 		ABEA4DB62C4CC4E9009D7FB7 /* MPGameMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPGameMove.swift; sourceTree = "<group>"; };
+		ABEA4DB82C4CCB0D009D7FB7 /* MPPeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPPeersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,8 @@
 			children = (
 				ABEA4DB22C4CA7DD009D7FB7 /* Info.plist */,
 				ABEA4D8F2C4BB161009D7FB7 /* AppEntry.swift */,
-				ABEA4D912C4BB161009D7FB7 /* StartView.swift */,
 				ABEA4DB02C4CA104009D7FB7 /* YourNameView.swift */,
+				ABEA4D912C4BB161009D7FB7 /* StartView.swift */,
 				ABEA4DA52C4BC5B6009D7FB7 /* Game Screen */,
 				ABEA4DB32C4CA878009D7FB7 /* MultiPeerConnectivity */,
 				ABEA4DA22C4BC4DD009D7FB7 /* Utilities */,
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ABEA4DB42C4CA89B009D7FB7 /* MPConnectionManager.swift */,
+				ABEA4DB82C4CCB0D009D7FB7 /* MPPeersView.swift */,
 				ABEA4DB62C4CC4E9009D7FB7 /* MPGameMove.swift */,
 			);
 			path = MultiPeerConnectivity;
@@ -209,6 +212,7 @@
 				ABEA4D902C4BB161009D7FB7 /* AppEntry.swift in Sources */,
 				ABEA4DA12C4BB558009D7FB7 /* GameModels.swift in Sources */,
 				ABEA4DAB2C4C8A58009D7FB7 /* GameService.swift in Sources */,
+				ABEA4DB92C4CCB0D009D7FB7 /* MPPeersView.swift in Sources */,
 				ABEA4DB52C4CA89B009D7FB7 /* MPConnectionManager.swift in Sources */,
 				ABEA4DA42C4BC4F2009D7FB7 /* ViewModifier.swift in Sources */,
 				ABEA4DA92C4BC5D7009D7FB7 /* GameView.swift in Sources */,
